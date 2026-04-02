@@ -1,5 +1,14 @@
-# getting input from user
-name = input("What is your name? ") 
-age = input("How old are you? ")
-# printing the output
-print("Hello, " + name + "! You are " + age + " years old.")
+# basic calculator  
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+operation = input("Enter operation (+, -, *, /): ")
+if operation == '+':
+    result = num1 + num2
+elif operation == '-':  
+    result = num1 - num2
+elif operation == '*':
+    result = num1 * num2
+elif operation == '/':
+    result = num1 / num2
+
+print("Result:", result)
