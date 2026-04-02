@@ -1,3 +1,5 @@
+from math import *
+
 # number methods in Python
 a = 10
 print(abs(a))  # absolute value
@@ -10,4 +12,8 @@ print(len([1, 2, 3, 4, 5]))  # length of the list
 print(int(3.14))  # convert to integer
 print(float(10))  # convert to float
 print(str(123))  # convert to string
-
+print(bool(0))  # convert to boolean
+print(bool(1))  # convert to boolean    
+print(sqrt(16))  # square root
+print(log(100, 10))  # logarithm base 10
+print(log10(100))  # logarithm base 10
