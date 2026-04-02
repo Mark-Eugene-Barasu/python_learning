@@ -1,10 +1,13 @@
-# numbers in Python
+# number methods in Python
 a = 10
-b = 3.14    
-print(a)  # Output: 10
-print(b)  # Output: 3.14
+print(abs(a))  # absolute value
+print(pow(a, 2))  # power
+print(round(3.14159, 2))  # round to 2 decimal places
+print(max(1, 5, 3))  # maximum value
+print(min(1, 5, 3))  # minimum value
+print(sum([1, 2, 3, 4, 5]))  #
+print(len([1, 2, 3, 4, 5]))  # length of the list
+print(int(3.14))  # convert to integer
+print(float(10))  # convert to float
+print(str(123))  # convert to string
 
-# print(a + "is my number")
-# This will raise a TypeError because you cannot concatenate a string and an integer directly
-# To fix this, you can convert the integer to a string:
-print(str(a) + " is my number")  # Output: "10 is my number"
