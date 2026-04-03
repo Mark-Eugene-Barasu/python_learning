@@ -7,3 +7,5 @@ def greet(name): # function definition and parameter
 
 # calling the function
 print(greet(name))
+
+
