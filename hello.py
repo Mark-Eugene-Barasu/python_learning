@@ -1,6 +1,6 @@
 
-# 
-my_num = 5
-print(f"{my_num} is my favorite number")
-my_num = 10
-print(f"{my_num} is my new favorite number")    
+my_number = 5.2
+print(abs(my_number)) # 5.2
+print(abs(-my_number)) # 5.2
+print(abs(-5)) # 5
+print(abs(5)) # 5
