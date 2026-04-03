@@ -1,7 +1,7 @@
 name = input("what is your name? ")
 
 # function in python
-def greet(name):
+def greet(name): # function definition and parameter
     return f"Hello, {name}!"
 
 
