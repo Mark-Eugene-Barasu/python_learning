@@ -1,10 +1,8 @@
-phrase = "Hello, World!"
-print(phrase.lower())
-print(phrase.upper()) 
-print(phrase.isupper())
-print(phrase.upper().isupper())
-print(len(phrase))  
-print(phrase[0])  #H is the first character
-print(phrase[7])    #W is the 8th character (index starts at 0)
-print(phrase.index("X"))  #Find the index of 'X' (will raise an error if not found)
-print(phrase.replace("Hello", "Hi"))  #Replace "Hello" with "Hi"
+# working with numbers
+print(2 + 3)  # addition
+print(5 - 2)  # subtraction
+print(4 * 3)  # multiplication
+print(10 / 2)  # division
+print(10 // 3)  # floor division
+print(2 ** 3)  # exponentiation
+print(10 % 3)  # modulus
