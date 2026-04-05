@@ -1,6 +1,11 @@
-import time
+# nested loops = a loop inside a loop
 
-for seconds in range(10, 0, -1):
-    print(seconds )
-    time.sleep(1)
-print("Happy New Year!")
+rows = int(input("How many rows? "))
+columns = int(input("How many columns? "))
+symbol = input("Enter a symbol to use: ")
+
+for i in range(rows):
+    for j in range(columns):
+        print(symbol, end="")
+    print()
+# end="" prevents the print function from moving to the next line after printing the symbolReplace the symbol with a space to create a hollow rectangle
