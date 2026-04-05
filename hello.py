@@ -1,17 +1,17 @@
+# if statement = a block of code that will execute if it's condition is true
+age = int(input("How old are you? "))
+if age >= 18:
+    print("You are an adult!")
+else:
+    print("You are a child!")
 
-# slicing = creating a substring by extracting elements from another string
-#            indexing[] or slice()
-#            [start:stop:step]
-name = "Bro Code"
-first_name = name[0:3]
-last_name = name[4:8]
-funky_name = name[0:8:2]
-reversed_name = name[::-1]
 
-print(first_name)
-print(last_name)
-print(funky_name)
-print(reversed_name)
-website = "http://www.google.com"
-slice = slice(7, -4)
-print(website[slice])
+# elif statement = a block of code that will execute if it's condition is true
+# and is used after if statement and before else statement      
+age = int(input("How old are you? "))
+if age >= 18:
+    print("You are an adult!")
+elif age >= 13:
+    print("You are a teenager!")
+else:
+    print("You are a child!")
