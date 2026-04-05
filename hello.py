@@ -1,4 +1,9 @@
-print("I love Pizza ")
-print("It's really good")
-# print(input("What is your favorite food? :"))
-print(type(44))
+import math
+pi = 3.14
+
+print(round(pi))
+print(math.ceil(pi))
+print(math.floor(pi))   
+print(abs(pi))
+print(pow(pi, 2))
+print(math.sqrt(pi))
