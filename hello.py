@@ -1,9 +1,16 @@
-# set = collection of unique items
-# set is unordered, so we cannot access items by index
-# sets are mutable, so we can add and remove items
-
-my_set = {1, 2, 3, 4, 5}
-print(my_set)
-
-for item in my_set:
-    print(item)
+# dictionary = a changeable, unordered collection of unique key:value pairs
+capitals = {'USA': 'Washington DC',
+            'India': 'New Delhi',
+            'China': 'Beijing',
+            'Russia': 'Moscow'}
+print(capitals['Russia'])
+print(capitals.get('India'))
+print(capitals.get('Germany', 'Not Found'))
+capitals['Germany'] = 'Berlin'
+print(capitals)
+capitals.update({'Germany': 'Berlin'})
+print(capitals)
+capitals.pop('China')
+print(capitals)
+capitals.clear()
+print(capitals)
