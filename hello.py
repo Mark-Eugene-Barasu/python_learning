@@ -1,12 +1,6 @@
-# for loop
-for i in range(5):
-    print("Hello, World!")
+import time
 
-for i in range (1, 6):
-    print(f"Number: {i}")  
-
-for i in range(0, 10, 2):
-    print(f"Even Number: {i}")
-
-for i in "Bro Code":
-    print(i)   
+for seconds in range(10, 0, -1):
+    print(seconds )
+    time.sleep(1)
+print("Happy New Year!")
