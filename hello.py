@@ -1,21 +1,12 @@
-# index operator [] = used to access a specific element in a collection using its index
-# string, list, tuple
-name = "Bro Code"
-first_letter = name[0]
+# functions = reusable pieces of code that perform a specific task
 
-if(name[0].islower()):
-    print("First letter is lowercase")
-else:
-    print("First letter is uppercase")
+def say_hello():
+    print("Hello, World!")
 
-# name[0] = "B" # error, string is immutable
-# lists are mutable
-food = ["pizza", "hamburger", "hotdog", "spaghetti", "sushi"]
-food[0] = "taco"
-print(food[0]) # taco
-print(food[1]) # hamburger
-print(food[2]) # hotdog
-print(food[3]) # spaghetti
-print(food[4]) # sushi
+say_hello()  # calling the function to execute its code
 
+# functions can also take parameters to make them more flexible
+def say_hello(name):
+    print(f"Hello, {name}!")
 
+say_hello("Alice")  # calling the function with an argument
