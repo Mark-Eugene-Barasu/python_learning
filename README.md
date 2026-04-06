@@ -48,10 +48,10 @@ python main.py
 ## Controls
 
 - Arrow Keys: Move snake
-- q: Quit
+- q: Quit during game
+- r: Restart after game over
+- Q: Quit after game over
 
 ## License
-
-MIT License
 
 MIT License
