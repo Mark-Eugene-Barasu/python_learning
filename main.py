@@ -10,7 +10,6 @@ import curses
 import random
 import time
 
-
 def draw_game(stdscr, snake, food, score):
     """Draw the current game state."""
     stdscr.clear()
